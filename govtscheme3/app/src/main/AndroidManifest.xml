@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.prasadsawant.govtscheme">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:name=".FireLearn">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SchemesLayoutHandler"
+            android:label="Schemes Tab" />
+        <activity
+            android:name=".Main3Activity"
+            android:label="@string/title_activity_main3"
+            android:theme="@style/AppTheme"></activity>
+        <activity android:name=".temp"></activity>
+        <activity android:name=".AboutUs"></activity>
+        <activity android:name=".TrendingList"></activity>
+        <activity android:name=".tempFarmer1"></activity>
+        <activity android:name=".tempFarmer2"></activity>
+        <activity android:name=".tempFarmer3"></activity>
+        <activity android:name=".tempFarmer4"></activity>
+        <activity android:name=".tempWomen1"></activity>
+        <activity android:name=".tempStudent1"></activity>
+    </application>
+
+</manifest>

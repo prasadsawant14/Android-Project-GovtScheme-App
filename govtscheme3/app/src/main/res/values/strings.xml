@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">govt scheme</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="top_trending">Top Notices</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="_1_digital_india_on_august_21_2014_the_digital_india_campaign_was_launched_the_idea_is_to_change_india_into_an_electronically_empowered_economy">1) Digital India On August 21, 2014, the “Digital India” campaign was launched. The idea is to change India into an electronically empowered economy.</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="400dp"
+    android:layout_margin="18dp"
+    android:layout_height="600dp"
+    android:id="@+id/cardView">
+
+    <!--<ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:id="@+id/newsImage"
+        app:srcCompat="@drawable/logo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"/>-->
+
+    <include layout="@layout/cardviewlayout"
+        android:layout_height="260dp"
+        android:layout_width="match_parent" />
+</android.support.v7.widget.CardView>

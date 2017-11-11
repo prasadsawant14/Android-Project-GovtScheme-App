@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="425dp"
+        android:layout_height="76dp"
+        android:paddingTop="@dimen/appbar_padding_top"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        tools:layout_editor_absoluteY="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_about1"
+            app:title="Trending List"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        </android.support.v7.widget.Toolbar>
+
+
+
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:text="2) Pradhan Mantri Jan Dhan Yojana On August 28, 2014, Prime Minister Narendra Modi launched the Pradhan Mantri Jan Dhan Yojana. This scheme was announced when he gave his first Independence Day speech on August 15 , 2014."
+        android:layout_width="379dp"
+        android:layout_height="83dp"
+        android:id="@+id/textView6"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:text="@string/_1_digital_india_on_august_21_2014_the_digital_india_campaign_was_launched_the_idea_is_to_change_india_into_an_electronically_empowered_economy"
+        android:layout_width="381dp"
+        android:layout_height="51dp"
+        android:id="@+id/textView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/appbar"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <TextView
+        android:text="4) Make in India This was basically a slogan, coined by Narendra Modi on September 25, 2014 to attract the global world to invest and manufacture in India."
+        android:layout_width="379dp"
+        android:layout_height="60dp"
+        android:id="@+id/textView11"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:text="5. Saansad Adarsh Gram Yojana On October 11, 2014, Prime Minister Narendra Modi launched the Saansad Adarsh Gram Yojana. According to this yojana, each MP will take the responsibility of developing three villages by 2019."
+        android:layout_width="379dp"
+        android:layout_height="72dp"
+        android:id="@+id/textView13"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:text="3) Swachh Bharat Abhiyan On 24 September 2014, Prime Minister approved the Swachh Bharat campaign, which was a modification of the Nirmal Bharat Programme, launched by the previous Government."
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView12"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintHorizontal_bias="0.47"
+        android:layout_marginTop="40dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:text="www.digitalindia.gov.in/"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:id="@+id/textView9"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.87"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:text="www.swachhbharaturban.in/ "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:id="@+id/textView8"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.94"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:text="saanjhi.gov.in/"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:id="@+id/textView19"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.94"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:text="www.makeinindia.com/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:id="@+id/textView21"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.96"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:text="https://www.pmjdy.gov.in/scheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:id="@+id/textView16"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.92"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:text="Go To Link :-"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView10"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/textView9"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <TextView
+        android:text="Go To Link :-"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView20"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/textView9"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:text="Go To Link :-"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView17"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/textView9"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:text="Go To Link :-"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView15"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/textView9"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:text="Go To Link :-"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/textView9"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:layout_marginTop="8dp" />
+
+
+</android.support.constraint.ConstraintLayout>

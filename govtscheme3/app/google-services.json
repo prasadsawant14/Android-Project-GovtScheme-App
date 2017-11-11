@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "722193867214",
+    "firebase_url": "https://fireapp-1a94d.firebaseio.com",
+    "project_id": "fireapp-1a94d",
+    "storage_bucket": "fireapp-1a94d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722193867214:android:b0f80ac7e485cd7e",
+        "android_client_info": {
+          "package_name": "com.example.prasadsawant.govtscheme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722193867214-0p38c0usbledth2u473hum8fktf3p636.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.prasadsawant.govtscheme",
+            "certificate_hash": "b14fdeaa86fd1c056965032634f28e4b0f3ae3a8"
+          }
+        },
+        {
+          "client_id": "722193867214-icfkjopd33etp8ld69g4jpdfeo6iaht8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBptsHHgM6I6bQgoahdu7t4bT9p--tTOuQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "722193867214-icfkjopd33etp8ld69g4jpdfeo6iaht8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

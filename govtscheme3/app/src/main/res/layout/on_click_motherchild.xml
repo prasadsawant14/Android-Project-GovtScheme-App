@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/constraintidmotherchild"
+    >
+
+
+    <ImageView
+        android:layout_width="398dp"
+        android:layout_height="287dp"
+        app:srcCompat="@drawable/women1"
+        android:id="@+id/imageView3motherchild"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+
+
+
+    <TextView
+        android:text="Loading....Please Wait..!"
+        android:layout_width="351dp"
+        android:layout_height="227dp"
+        android:id="@+id/textView3motherchild"
+        android:layout_marginStart="24dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3motherchild" />
+
+    <TextView
+        android:layout_width="205dp"
+        android:layout_height="39dp"
+        android:id="@+id/tv1motherchild"
+        android:layout_marginStart="24dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.92"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView3motherchild" />
+
+
+</android.support.constraint.ConstraintLayout>
